@@ -1,0 +1,27 @@
+www.amdavidson.com {
+    root * /site
+    encode zstd gzip
+    file_server
+}
+
+amdavidson.com {
+    redir https://www.amdavidson.com/
+}
+
+www.amdavidson.net, amdavidson.net {
+    redir https://www.amdavidson.com/
+}
+
+www.amdavidson.org, amdavidson.org {
+    redir https://www.amdavidson.com/
+}
+
+www.amd.im, amd.im {
+    redir https://www.amdavidson.com/
+}
+
+raleigh.andr3w.net, www.andr3w.net, andr3w.net {
+    redir https://www.amdavidson.com/
+}
+
+
